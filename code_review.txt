@@ -1,0 +1,28 @@
+Correctness - 2/4
+Efficieny - 2/4
+Style - 1/4
+Documentation - 0/4
+
+positive aspects -You have the overall idea correctly, however you are making a few
+errors that is giving you syntax and runtime errors.
+
+improvements - Firstly you should always try to follow the PEP 8 style convention 
+when using python, I will source a link below that will help you with that.
+
+In the line 2 you are defing your class with 2 arguments but it only needs to take
+in a string and thus resulting in an error. When you use the sorted method you are 
+not parsing anything into it and causes a syntax error.
+
+Finally when printing out the string list you need to pass in the string variable
+and not the entire string list.
+
+python style:
+https://peps.python.org/pep-0008/
+
+sorted method:
+https://www.w3schools.com/python/ref_func_sorted.asp
+
+Overall Feedback
+You are very close to finishing this task, take the feedback given and make the 
+necessary changes and resubmit. If you have further questions or you are stuck
+ please do not hesist and reach out to us on the discord or book a call.
